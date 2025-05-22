@@ -1,5 +1,4 @@
-<h2>
-This folder contains two task written in python
+<h3>This folder contains two task written in python</h3>
 <br>
 Task 1 is program that takes two inputs from the user and performs basec arthmetic operation which are addition, subraction, division and multiplication
 <br>
