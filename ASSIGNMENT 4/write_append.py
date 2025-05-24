@@ -1,0 +1,13 @@
+str1=input("write the what you want to write in the file: ")
+file2=open(r"c:\Users\hp\Documents\Python Assignments\ASSIGNMENT 4\output.txt", "w")
+file_w=file2.write(str1)
+file2.close()
+str2=input("write the what you want to append in the file: ")
+file2=open(r"c:\Users\hp\Documents\Python Assignments\ASSIGNMENT 4\output.txt", "a")
+file_a=file2.write('\n' + str2)
+file2.close()
+
+file2=open(r"c:\Users\hp\Documents\Python Assignments\ASSIGNMENT 4\output.txt", "r")
+read_file= file2.read()
+print(read_file )   
+file2.close()
