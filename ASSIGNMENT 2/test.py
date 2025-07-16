@@ -10,3 +10,5 @@ for i in range(10): # creats an empty list k with 10 references to the same list
 print(k)
 k[0][0] = 'a'
 print(k)
+
+

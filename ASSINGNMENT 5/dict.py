@@ -6,3 +6,4 @@ if a in std_dict:
     print("{}'s marks are {}".format(a, std_dict[a]))
 else:
     print("Student not found")  
+ 
